@@ -1,0 +1,6 @@
+cc_library(
+    name = "world",
+    srcs = ["world.c"],
+    hdrs = ["world.h"],
+    visibility = ["//c_example:__subpackages__"],
+)

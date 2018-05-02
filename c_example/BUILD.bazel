@@ -1,0 +1,5 @@
+cc_binary(
+    name = "c_example",
+    srcs = ["main.c"],
+    deps = ["//world"],
+)
